@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# COCO dataset: raw images and large annotation files
+coco/
+annotations/
+images/
+train2017/
+val2017/
+*.json
+
+# PyTorch Model Checkpoints
+*.pth
+*.pt
+best_image_captioning_model.pth
